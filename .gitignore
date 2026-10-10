@@ -1,0 +1,23 @@
+# secrets: never commit
+backend/.env
+backend/config/anuvaad.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/.cache/
+
+# Node / build
+frontend/node_modules/
+frontend/dist/
+
+# local outputs
+eval/results/
+eval/fonts/
+eval/photos/real/
+*.log
+.DS_Store
+Thumbs.db

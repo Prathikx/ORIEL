@@ -1,0 +1,15 @@
+# never copy secrets or local junk into the image
+backend/.env
+backend/config/anuvaad.json
+backend/.cache
+**/__pycache__
+**/.pytest_cache
+.venv
+venv
+frontend/node_modules
+frontend/dist
+eval/photos
+eval/results
+eval/fonts
+.git
+*.zip

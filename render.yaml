@@ -1,0 +1,22 @@
+# Render Blueprint: New > Blueprint > pick this repo. Fill the two secret values when Render asks.
+services:
+  - type: web
+    name: oriel
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false            # paste your key in the Render dashboard
+      - key: ANUVAAD_CONFIG_JSON
+        sync: false            # paste the WHOLE content of backend/config/anuvaad.json
+      - key: GEMINI_READER_MODEL
+        value: gemini-3.5-flash-lite
+      - key: GEMINI_ARBITER_MODEL
+        value: gemini-3.5-flash-lite
+      - key: GEMINI_ASK_MODEL
+        value: gemini-3.5-flash-lite
+      - key: ANUVAAD_VERIFY_TLS
+        value: "true"
+      - key: TIMEZONE
+        value: Asia/Kolkata
