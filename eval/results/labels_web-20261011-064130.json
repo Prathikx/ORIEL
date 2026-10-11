@@ -1,0 +1,212 @@
+{
+ "summary": {
+  "labels": "eval/labels_web.json",
+  "lang": "en",
+  "oriel": {
+   "signs": 7,
+   "wrong_but_confident": 3,
+   "key_fact_recall": 0.5,
+   "hedged_right": 2,
+   "sign_found_accuracy": 1.0,
+   "abstained": 1,
+   "scene_described": "7/7",
+   "hazard_warned": "3/4"
+  },
+  "single_frame_baseline": {},
+  "latency_ms": {
+   "median": 16024,
+   "max": 23001
+  },
+  "errors": 3
+ },
+ "rows": [
+  {
+   "id": "web_bus_tsrtc",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 17978,
+   "oriel": {
+    "expected_facts": 10,
+    "confirmed_right": 7,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "This is a no entry sign.",
+     "Careful, there may be metal sign pole on the left, raised curb on the right, moving bus in the center. Check with your cane."
+    ],
+    "scene_ok": true
+   }
+  },
+  {
+   "id": "web_busstop_tarnaka",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 18195,
+   "error": "gemini-3.1-flash-lite: _Skip: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. "
+  },
+  {
+   "id": "web_busstop_jubilee",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 16232,
+   "error": "gemini-3.1-flash-lite-preview: _Skip: timeout"
+  },
+  {
+   "id": "web_busstop_streets",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 10174,
+   "error": "gemini-3.1-flash-lite: _Skip: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. "
+  },
+  {
+   "id": "web_metro_gates",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 23001,
+   "oriel": {
+    "expected_facts": 9,
+    "confirmed_right": 1,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 2,
+    "uncertain_total": 2,
+    "sign_found_ok": true,
+    "action": "reread",
+    "said": [
+     "It looks like Bawarchi Restaurant, please check.",
+     "It looks like Sandhya 70mm, please check.",
+     "This is a exit sign."
+    ],
+    "scene_ok": true,
+    "hazard_ok": false
+   }
+  },
+  {
+   "id": "web_note_2000",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 18642,
+   "oriel": {
+    "expected_facts": 6,
+    "confirmed_right": 3,
+    "wrong_but_confident": 2,
+    "wrong_details": [
+     "text=भारतीय रिज़र्व बैंक",
+     "text=दो हज़ार रुपये"
+    ],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "This is a 2000 rupee note."
+    ],
+    "scene_ok": true
+   }
+  },
+  {
+   "id": "web_steps",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 16024,
+   "oriel": {
+    "expected_facts": 0,
+    "confirmed_right": 0,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "Careful, there may be Extensive, long, and steep flight of stone stairs directly in front, The stairs present a significant tripping and falling hazard, A long, steep flight of stone stairs immediately ahead. Check with your cane.",
+     "Here is what I can see: A person in white clothing is walking up a very wide, steep stone staircase toward the entrance of a large, dark red historical building. The entrance is a dark archway in the center of the structure."
+    ],
+    "scene_ok": true,
+    "hazard_ok": true
+   }
+  },
+  {
+   "id": "web_street_charminar",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 12567,
+   "oriel": {
+    "expected_facts": 3,
+    "confirmed_right": 2,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign says: Hitex. Hyderabad.",
+     "Careful, there may be large yellow construction vehicle on the left, kerb separating the road from the bushes on the right, curb along the road. Check with your cane."
+    ],
+    "scene_ok": true,
+    "hazard_ok": true
+   }
+  },
+  {
+   "id": "web_street_hyd",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 7788,
+   "oriel": {
+    "expected_facts": 2,
+    "confirmed_right": 0,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "Careful, there may be four large oxen on the road in the center and right foreground, two people walking on the left side of the road, three large cattle walking in the road. Check with your cane.",
+     "Here is what I can see: Two people are walking on the side of a road, each leading a pair of oxen. There are buildings in the background and a road stretching ahead."
+    ],
+    "scene_ok": true,
+    "hazard_ok": true
+   }
+  },
+  {
+   "id": "web_streetsign",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 9921,
+   "oriel": {
+    "expected_facts": 4,
+    "confirmed_right": 4,
+    "wrong_but_confident": 1,
+    "wrong_details": [
+     "place=Sachivalayam"
+    ],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign shows NTR Garden, straight ahead.",
+     "The sign says: Secretariat.",
+     "The sign says: Sachivalayam."
+    ],
+    "scene_ok": true
+   }
+  }
+ ]
+}

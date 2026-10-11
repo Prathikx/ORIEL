@@ -1,0 +1,172 @@
+{
+ "summary": {
+  "labels": "eval/labels_synthetic.json",
+  "lang": "en",
+  "oriel": {
+   "signs": 7,
+   "wrong_but_confident": 0,
+   "key_fact_recall": 0.913,
+   "hedged_right": 0,
+   "sign_found_accuracy": 1.0,
+   "abstained": 0,
+   "scene_described": "0/0",
+   "hazard_warned": "0/0"
+  },
+  "single_frame_baseline": {},
+  "latency_ms": {
+   "median": 8487,
+   "max": 15272
+  },
+  "errors": 0
+ },
+ "rows": [
+  {
+   "id": "bus_001",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 11165,
+   "oriel": {
+    "expected_facts": 2,
+    "confirmed_right": 2,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign says: bus two one eight, to Secunderabad.",
+     "Careful, there may be a thin metal pole holding the sign. Check with your cane."
+    ]
+   }
+  },
+  {
+   "id": "direction_001",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 8487,
+   "oriel": {
+    "expected_facts": 4,
+    "confirmed_right": 4,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign shows Ameerpet, to the left.",
+     "The sign shows Secunderabad, to the right.",
+     "Careful, there may be a metal pole supporting the sign. Check with your cane."
+    ]
+   }
+  },
+  {
+   "id": "nosign_001",
+   "conditions": [
+    "no_sign"
+   ],
+   "ms": 5524,
+   "oriel": {
+    "expected_facts": 0,
+    "confirmed_right": 0,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "Here is what I can see: The image appears to be a blank or textured neutral colored surface, with no discernable objects or signs visible."
+    ]
+   }
+  },
+  {
+   "id": "shop_002",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 4529,
+   "oriel": {
+    "expected_facts": 1,
+    "confirmed_right": 1,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The board says: Sri Lakshmi General Stores.",
+     "It looks like a general store."
+    ]
+   }
+  },
+  {
+   "id": "notice_001",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 5285,
+   "oriel": {
+    "expected_facts": 3,
+    "confirmed_right": 3,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign says: Notice. Please use gate no. 2."
+    ]
+   }
+  },
+  {
+   "id": "product_001",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 8788,
+   "oriel": {
+    "expected_facts": 5,
+    "confirmed_right": 4,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The board says: Parafix 650.",
+     "It looks like a paracetamol tablets.",
+     "The sign says: Paracetamol Tablets IP 650 mg. Exp 08/2027. MRP Rs 30.50."
+    ]
+   }
+  },
+  {
+   "id": "product_002",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 15272,
+   "oriel": {
+    "expected_facts": 8,
+    "confirmed_right": 7,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The board says: Sunrise Toned Milk.",
+     "It looks like a milk packet.",
+     "The sign says: Sunrise. Toned milk. 500 ml. MRP Rs 28."
+    ]
+   }
+  }
+ ]
+}

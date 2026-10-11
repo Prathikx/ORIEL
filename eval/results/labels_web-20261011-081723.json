@@ -1,0 +1,116 @@
+{
+ "summary": {
+  "labels": "eval/labels_web.json",
+  "lang": "en",
+  "oriel": {
+   "signs": 4,
+   "wrong_but_confident": 1,
+   "key_fact_recall": 0.519,
+   "hedged_right": 2,
+   "sign_found_accuracy": 1.0,
+   "abstained": 1,
+   "scene_described": "4/4",
+   "hazard_warned": "1/1"
+  },
+  "single_frame_baseline": {},
+  "latency_ms": {
+   "median": 17845,
+   "max": 60850
+  },
+  "errors": 0
+ },
+ "rows": [
+  {
+   "id": "web_bus_tsrtc",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 60850,
+   "oriel": {
+    "expected_facts": 10,
+    "confirmed_right": 7,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "This is a no entry sign.",
+     "Careful, there may be a tall metal pole behind the sign and a bus moving on the road center. Check with your cane."
+    ],
+    "scene_ok": true
+   }
+  },
+  {
+   "id": "web_note_2000",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 17273,
+   "oriel": {
+    "expected_facts": 10,
+    "confirmed_right": 4,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "This is a 2000 rupee note."
+    ],
+    "scene_ok": true
+   }
+  },
+  {
+   "id": "web_street_hyd",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 9793,
+   "oriel": {
+    "expected_facts": 2,
+    "confirmed_right": 0,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "guide",
+    "said": [
+     "Careful, there may be cattle walking on the road ahead and moving vehicles on the road. Check with your cane.",
+     "Here is what I can see: Two people are walking cattle on the road on the left side, and several buildings are visible in the background."
+    ],
+    "scene_ok": true,
+    "hazard_ok": true
+   }
+  },
+  {
+   "id": "web_streetsign",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 18417,
+   "oriel": {
+    "expected_facts": 5,
+    "confirmed_right": 3,
+    "wrong_but_confident": 1,
+    "wrong_details": [
+     "place=yen.ti.ar garden"
+    ],
+    "hedged_right": 2,
+    "uncertain_total": 2,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign says: yen.ti.ar garden.",
+     "The sign says: sachivalayam.",
+     "The sign says: Khairatabad.",
+     "Careful, there may be a vertical metal pole straight ahead. Check with your cane."
+    ],
+    "scene_ok": true
+   }
+  }
+ ]
+}

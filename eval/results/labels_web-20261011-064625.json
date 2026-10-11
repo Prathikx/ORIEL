@@ -1,0 +1,252 @@
+{
+ "summary": {
+  "labels": "eval/labels_web.json",
+  "lang": "en",
+  "oriel": {
+   "signs": 10,
+   "wrong_but_confident": 0,
+   "key_fact_recall": 0.404,
+   "hedged_right": 0,
+   "sign_found_accuracy": 1.0,
+   "abstained": 2,
+   "scene_described": "10/10",
+   "hazard_warned": "6/6"
+  },
+  "single_frame_baseline": {},
+  "latency_ms": {
+   "median": 9172,
+   "max": 17861
+  },
+  "errors": 0
+ },
+ "rows": [
+  {
+   "id": "web_bus_tsrtc",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 17861,
+   "oriel": {
+    "expected_facts": 10,
+    "confirmed_right": 7,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "This is a no entry sign.",
+     "Careful, there may be a bus moving on the right and a pole near the sign on the left. Check with your cane."
+    ],
+    "scene_ok": true
+   }
+  },
+  {
+   "id": "web_busstop_tarnaka",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 7340,
+   "oriel": {
+    "expected_facts": 7,
+    "confirmed_right": 1,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "This is a no parking sign.",
+     "This is an advertisement for Zee5.",
+     "Careful, there may be a metal pole in the center and a kerb on the left side. Check with your cane."
+    ],
+    "scene_ok": true
+   }
+  },
+  {
+   "id": "web_busstop_jubilee",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 9454,
+   "oriel": {
+    "expected_facts": 3,
+    "confirmed_right": 2,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign says: JBS Parade Ground.",
+     "Careful, there may be moving motorbikes in the foreground and moving bus on the right. Check with your cane."
+    ],
+    "scene_ok": true,
+    "hazard_ok": true
+   }
+  },
+  {
+   "id": "web_busstop_streets",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 10935,
+   "oriel": {
+    "expected_facts": 3,
+    "confirmed_right": 0,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "reread",
+    "said": [
+     "This looks like an advertisement.",
+     "Careful, there may be moving bus in the centre and auto-rickshaws to the right. Check with your cane."
+    ],
+    "scene_ok": true,
+    "hazard_ok": true
+   }
+  },
+  {
+   "id": "web_metro_gates",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 9006,
+   "oriel": {
+    "expected_facts": 9,
+    "confirmed_right": 0,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "This is an exit sign.",
+     "Careful, there may be steep concrete stairs ahead leading down and metal railing bordering the stairs. Check with your cane."
+    ],
+    "scene_ok": true,
+    "hazard_ok": true
+   }
+  },
+  {
+   "id": "web_note_2000",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 11448,
+   "oriel": {
+    "expected_facts": 10,
+    "confirmed_right": 4,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "This is a 2000 rupee note."
+    ],
+    "scene_ok": true
+   }
+  },
+  {
+   "id": "web_steps",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 6474,
+   "oriel": {
+    "expected_facts": 0,
+    "confirmed_right": 0,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "reread",
+    "said": [
+     "It looks like it says Rules & regulations, please check.",
+     "Careful, there may be many stone steps ahead and person walking up the steps in front. Check with your cane."
+    ],
+    "scene_ok": true,
+    "hazard_ok": true
+   }
+  },
+  {
+   "id": "web_street_charminar",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 7320,
+   "oriel": {
+    "expected_facts": 3,
+    "confirmed_right": 2,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign says: Hitex. Hyderabad.",
+     "Careful, there may be large construction vehicle on the left and kerb along the road on the right. Check with your cane."
+    ],
+    "scene_ok": true,
+    "hazard_ok": true
+   }
+  },
+  {
+   "id": "web_street_hyd",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 8027,
+   "oriel": {
+    "expected_facts": 2,
+    "confirmed_right": 0,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "Careful, there may be large oxen walking on the road and man leading oxen in front. Check with your cane.",
+     "Here is what I can see: Three cattle walking along the side of a road, guided by two people. There are buildings in the background."
+    ],
+    "scene_ok": true,
+    "hazard_ok": true
+   }
+  },
+  {
+   "id": "web_streetsign",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 9338,
+   "oriel": {
+    "expected_facts": 5,
+    "confirmed_right": 5,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign says: Khairatabad.",
+     "The sign shows NTR Garden, straight ahead.",
+     "The sign says: Secretariat.",
+     "Careful, there may be a vertical metal pole straight ahead. Check with your cane."
+    ],
+    "scene_ok": true
+   }
+  }
+ ]
+}

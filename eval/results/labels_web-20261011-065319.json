@@ -1,0 +1,71 @@
+{
+ "summary": {
+  "labels": "eval/labels_web.json",
+  "lang": "te",
+  "oriel": {
+   "signs": 2,
+   "wrong_but_confident": 0,
+   "key_fact_recall": 0.714,
+   "hedged_right": 0,
+   "sign_found_accuracy": 1.0,
+   "abstained": 0,
+   "scene_described": "0/2",
+   "hazard_warned": "0/1"
+  },
+  "single_frame_baseline": {},
+  "latency_ms": {
+   "median": 13738,
+   "max": 14656
+  },
+  "errors": 0
+ },
+ "rows": [
+  {
+   "id": "web_street_hyd",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 12821,
+   "oriel": {
+    "expected_facts": 2,
+    "confirmed_right": 0,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "జాగ్రత్త, దారిలో ఉండవచ్చు: మూడు పెద్ద ఎద్దులు రోడ్డుపై నడుస్తున్నాయి మరియు మధ్యలో ఒక వ్యక్తి నడుస్తున్నాడు. కర్రతో సరిచూసుకోండి.",
+     "నాకు ఇది కనిపిస్తోంది: విశాలమైన రహదారి భుజం వెంట ముగ్గురు ఎద్దులను ఇద్దరు వ్యక్తులు నడిపిస్తున్నారు. నేపథ్యంలో బహుళ అంతస్తుల భవనాలు మరియు స్పష్టమైన నీలం ఆకాశం ఉన్నాయి."
+    ],
+    "scene_ok": false,
+    "hazard_ok": false
+   }
+  },
+  {
+   "id": "web_streetsign",
+   "conditions": [
+    "real_photo"
+   ],
+   "ms": 14656,
+   "oriel": {
+    "expected_facts": 5,
+    "confirmed_right": 5,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "బోర్డుపై ఉంది: ఖైరతాబాద్.",
+     "బోర్డు ప్రకారం యస్.టి.ఆర్ గార్డెన్ నేరుగా ముందుకు ఉంది.",
+     "బోర్డుపై ఉంది: సచివాలయం.",
+     "జాగ్రత్త, దారిలో ఉండవచ్చు: మధ్యలో ఒక లోహపు స్తంభం. కర్రతో సరిచూసుకోండి."
+    ],
+    "scene_ok": false
+   }
+  }
+ ]
+}

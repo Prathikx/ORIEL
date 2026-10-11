@@ -1,0 +1,151 @@
+{
+ "summary": {
+  "labels": "eval/labels_synthetic.json",
+  "lang": "en",
+  "oriel": {
+   "signs": 6,
+   "wrong_but_confident": 0,
+   "key_fact_recall": 0.824,
+   "hedged_right": 0,
+   "sign_found_accuracy": 1.0,
+   "abstained": 0,
+   "scene_described": "0/0",
+   "hazard_warned": "0/0"
+  },
+  "single_frame_baseline": {},
+  "latency_ms": {
+   "median": 8390,
+   "max": 20390
+  },
+  "errors": 0
+ },
+ "rows": [
+  {
+   "id": "bus_001",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 9812,
+   "oriel": {
+    "expected_facts": 2,
+    "confirmed_right": 2,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign says: bus two one eight, to Secunderabad.",
+     "Careful, there may be a metal pole supporting the sign. Check with your cane."
+    ]
+   }
+  },
+  {
+   "id": "bus_004",
+   "conditions": [
+    "far"
+   ],
+   "ms": 7535,
+   "oriel": {
+    "expected_facts": 2,
+    "confirmed_right": 2,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign says: bus one two seven K, to Kondapur.",
+     "Careful, there may be a thin pole in the center. Check with your cane."
+    ]
+   }
+  },
+  {
+   "id": "direction_001",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 8507,
+   "oriel": {
+    "expected_facts": 4,
+    "confirmed_right": 4,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign shows Ameerpet, to the left.",
+     "The sign shows Secunderabad, to the right.",
+     "Careful, there may be a metal pole directly ahead. Check with your cane."
+    ]
+   }
+  },
+  {
+   "id": "shop_002",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 20390,
+   "oriel": {
+    "expected_facts": 1,
+    "confirmed_right": 1,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The board says: Sri Lakshmi General Stores.",
+     "It looks like general stores."
+    ]
+   }
+  },
+  {
+   "id": "notice_001",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 6928,
+   "oriel": {
+    "expected_facts": 3,
+    "confirmed_right": 3,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign says: Notice. Please use gate no. 2."
+    ]
+   }
+  },
+  {
+   "id": "product_001",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 8272,
+   "oriel": {
+    "expected_facts": 5,
+    "confirmed_right": 2,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The label says: Parafix 650.",
+     "It looks like paracetamol tablets.",
+     "It also says: Paracetamol Tablets IP 650 mg."
+    ]
+   }
+  }
+ ]
+}

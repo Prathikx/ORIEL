@@ -1,0 +1,46 @@
+{
+ "summary": {
+  "labels": "eval/labels_synthetic.json",
+  "lang": "en",
+  "oriel": {
+   "signs": 1,
+   "wrong_but_confident": 0,
+   "key_fact_recall": 0.8,
+   "hedged_right": 0,
+   "sign_found_accuracy": 1.0,
+   "abstained": 0,
+   "scene_described": "0/0",
+   "hazard_warned": "0/0"
+  },
+  "single_frame_baseline": {},
+  "latency_ms": {
+   "median": 30993,
+   "max": 30993
+  },
+  "errors": 0
+ },
+ "rows": [
+  {
+   "id": "product_001",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 30993,
+   "oriel": {
+    "expected_facts": 5,
+    "confirmed_right": 4,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The label says: Parafix 650.",
+     "It looks like paracetamol tablets.",
+     "It also says: Paracetamol Tablets IP 650 mg. Exp 08/2027. MRP Rs 30.50."
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "summary": {
+  "labels": "eval/labels_synthetic.json",
+  "lang": "en",
+  "oriel": {
+   "signs": 4,
+   "wrong_but_confident": 0,
+   "key_fact_recall": 1.0,
+   "hedged_right": 0,
+   "sign_found_accuracy": 1.0,
+   "abstained": 1
+  },
+  "single_frame_baseline": {},
+  "latency_ms": {
+   "median": 7990,
+   "max": 23017
+  },
+  "errors": 0
+ },
+ "rows": [
+  {
+   "id": "bus_001",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 23017,
+   "oriel": {
+    "expected_facts": 2,
+    "confirmed_right": 2,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign says: bus two one eight, to Secunderabad."
+    ]
+   }
+  },
+  {
+   "id": "nosign_001",
+   "conditions": [
+    "no_sign"
+   ],
+   "ms": 2997,
+   "oriel": {
+    "expected_facts": 0,
+    "confirmed_right": 0,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "guide",
+    "said": []
+   }
+  },
+  {
+   "id": "shop_002",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 5446,
+   "oriel": {
+    "expected_facts": 1,
+    "confirmed_right": 1,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The board says: Sri Lakshmi General Stores."
+    ]
+   }
+  },
+  {
+   "id": "notice_001",
+   "conditions": [
+    "clear"
+   ],
+   "ms": 10533,
+   "oriel": {
+    "expected_facts": 3,
+    "confirmed_right": 3,
+    "wrong_but_confident": 0,
+    "wrong_details": [],
+    "hedged_right": 0,
+    "uncertain_total": 0,
+    "sign_found_ok": true,
+    "action": "done",
+    "said": [
+     "The sign says: Notice. Please use gate no. 2."
+    ]
+   }
+  }
+ ]
+}
