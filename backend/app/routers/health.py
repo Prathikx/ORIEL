@@ -6,7 +6,7 @@ import os
 
 from fastapi import APIRouter
 
-from ..services import anuvaad, gemini
+from ..services import anuvaad, gemini, vision_ocr
 from ..services.places import gazetteer
 from ..settings import get_settings
 
@@ -23,6 +23,8 @@ async def health():
         "anuvaad": st,
         "anuvaad_config_found": s.anuvaad_config.exists() or bool(os.getenv("ANUVAAD_CONFIG_JSON", "").strip()),
         "paddleocr": s.enable_paddleocr,
+        "cloud_vision": vision_ocr.configured(),
+        "gemini_keys": len(gemini.keys()),
         "known_places": len(gazetteer()),
         "languages": ["te", "hi", "en"],
     }

@@ -4,18 +4,27 @@ services:
     name: oriel
     runtime: docker
     plan: free
+    region: singapore        # closest Render region to India (only applies when the service is created)
     healthCheckPath: /api/health
     envVars:
       - key: GEMINI_API_KEY
         sync: false            # paste your key in the Render dashboard
       - key: ANUVAAD_CONFIG_JSON
         sync: false            # paste the WHOLE content of backend/config/anuvaad.json
+      - key: GEMINI_API_KEYS
+        sync: false            # optional: extra keys from OTHER Google projects, comma-separated (more quota)
+      - key: GOOGLE_VISION_API_KEY
+        sync: false            # optional: Cloud Console API key with the Cloud Vision API enabled (OCR reader)
       - key: GEMINI_READER_MODEL
-        value: gemini-3.5-flash-lite
+        value: gemini-3.1-flash-lite
       - key: GEMINI_ARBITER_MODEL
-        value: gemini-3.5-flash-lite
+        value: gemini-3-flash-preview
       - key: GEMINI_ASK_MODEL
-        value: gemini-3.5-flash-lite
+        value: gemini-3-flash-preview
+      - key: GEMINI_TIMEOUT_S
+        value: "10"
+      - key: ENABLE_PADDLEOCR
+        value: "false"         # PaddleOCR needs ~1 GB RAM: not on the free plan
       - key: ANUVAAD_VERIFY_TLS
         value: "true"
       - key: TIMEZONE
